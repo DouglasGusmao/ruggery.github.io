@@ -7,7 +7,7 @@ body {
 }
 
 body {
-  color: rgb(209, 205, 199);
+  color: rgb(209, 205, 199);  
   background-color: rgb(24, 26, 27);
 }
 
@@ -487,7 +487,8 @@ section {
   top: 0;
   background: rgb(24, 26, 27);
   border: 2px solid #1f5297;
-  }
+  border-color: rgb(34, 90, 166)
+}
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -557,7 +558,7 @@ section {
   transition: all ease-in-out 0.3s;
   display: flex;
   justify-content: center;
-}
+  }
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
