@@ -6,6 +6,12 @@ body {
   color: #272829;
 }
 
+body {
+  color: rgb(209, 205, 199);
+  background-color: rgb(24, 26, 27);
+}
+
+
 a {
   color: #149ddd;
 }
@@ -274,7 +280,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background:rgb(24, 26, 27);
 }
 
 .section-title {
@@ -287,7 +293,8 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  /*color: #173b6c;*/
+  color: rgb(148, 192, 232)
 }
 
 .section-title h2::after {
@@ -311,7 +318,8 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  /*color: #173b6c;*/
+  color: rgb(148, 192, 232)
 }
 
 .about .content ul {
@@ -399,7 +407,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: rgb(223, 220, 216);
 }
 
 .skills .progress .skill .val {
@@ -408,7 +416,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #dce8f8;
+  background:rgb(36, 39, 40);
 }
 
 .skills .progress-bar {
@@ -426,7 +434,8 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  /*color: #050d18;*/
+  color: rgb(148, 192, 232)
 }
 
 .resume .resume-item {
@@ -442,13 +451,14 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  /*color: #050d18;*/
+  color: rgb(148, 192, 232)
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  /*background: #e4edf9;*/
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -475,9 +485,9 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
+  background: rgb(24, 26, 27);
   border: 2px solid #1f5297;
-}
+  }
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -735,7 +745,7 @@ section {
 
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background:  rgb(24, 26, 27);
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
@@ -746,7 +756,8 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: rgb(6, 47, 66);
+  background-image: initial;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -759,14 +770,15 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #050d18;
+  color: rgb(223, 220, 216);
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  /*color: #173b6c;*/
+  color: rgb(148, 192, 232);
 }
 
 .contact .info .email p {
