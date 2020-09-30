@@ -327,8 +327,9 @@ section {
   padding: 0;
 }
 
-.about .content ul li {
+.about .content ul li a{
   padding-bottom: 10px;
+  color: rgb(209, 205, 199)
 }
 
 .about .content ul i {
